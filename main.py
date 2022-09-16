@@ -29,8 +29,10 @@ transportation_means.remove("car")
 print(transportation_means)
 transportation_means.pop()
 print(transportation_means)
-#.pop() removes the last item
-print("my new trans is " +newTrans)
+# #.pop() removes the last item
+# print("my new trans is " +newTrans)
+transportation_means.insert(3,"skateboard")
+print(transportation_means)
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
 # here are two lists:
