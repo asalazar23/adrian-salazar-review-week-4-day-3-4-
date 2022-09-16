@@ -95,17 +95,17 @@ my_list = ("drums", "piano", "guitar", "bass", "ukelele")
 # first_word= all_words[0]
 # print(first_word)
 
-# create a text input that asks for choice of food
-choice = input("What food do you want?")
-#create an empty list variable called food
-food = []
-# add 3 items from the user into the empty list
-food.append(choice)
-food.append(choice)
-food.append(choice)
+# # create a text input that asks for choice of food
+# choice = input("What food do you want?")
+# #create an empty list variable called food
+# food = []
+# # add 3 items from the user into the empty list
+# food.append(choice)
+# food.append(choice)
+# food.append(choice)
 
-#print out the menu list
-print(food)
+# #print out the menu list
+# print(food)
 ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
@@ -114,20 +114,23 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+# print(coordinates[0])
 # lets make this a multidimensional array
-coordindates2 = [(4, 5), (6, 7), (80, 34)]
-#get the second element of the second item in coordinates2
-
-# we use parentheses not [] in tuples
-my_tuple1 = (1, 2, 3, 4)
-# get the second item in the tuple1 above
-my_tuple = (1, 2, (10, 20), 4)
+# coordinates2 = [(4, 5), (6, 7), (80, 34)]
+# #get the second element of the second item in coordinates2
+# print(coordinates2[1][1])
+# # we use parentheses not [] in tuples
+# my_tuple1 = (1, 2, 3, 4)
+# # get the second item in the tuple1 above
+# my_tuple = (1, 2, (10, 20), 4)
+# print(my_tuple()
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
 # place these numbers in separate variables from the tuple below
 t = (1, 2, 3)
-
+x,y,z = t
+print(x,y,z)
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
 # Use a tuple method to count the number of times the value 2 appears in the following tuple, and display the result (integer) on the screen:
