@@ -89,17 +89,23 @@ my_list = ("drums", "piano", "guitar", "bass", "ukelele")
 
 # print(text3[::-1])
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-"Controlling complexity is the essence of programming"
-string = "Controlling complexity is the essence of programming"
-all_words = string.split()
-first_word= all_words[0]
-print(first_word)
+# "Controlling complexity is the essence of programming"
+# string = "Controlling complexity is the essence of programming"
+# all_words = string.split()
+# first_word= all_words[0]
+# print(first_word)
 
 # create a text input that asks for choice of food
+choice = input("What food do you want?")
 #create an empty list variable called food
+food = []
 # add 3 items from the user into the empty list
-#print out the menu list
+food.append(choice)
+food.append(choice)
+food.append(choice)
 
+#print out the menu list
+print(food)
 ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
